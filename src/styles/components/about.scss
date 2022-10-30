@@ -1,0 +1,36 @@
+#about-container {
+    padding-top: 1px;
+    padding-bottom: 70px;
+}
+
+.about-text {
+    font-size: var(--body-font-size);
+    text-align: center;
+}
+
+.services-title {
+    margin-top: 70px;
+    font-size: 60px;
+}
+
+.services-row {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: var(--smaller-font-size);
+    text-align: start;
+}
+
+.services-row h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.secondary-list {
+    list-style: circle;
+}
+
+#section-container {
+    padding-top: 1px;
+    background-color: rgb(66 73 110);
+}

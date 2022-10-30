@@ -1,0 +1,81 @@
+.header {
+    padding-top: 70px;
+    padding-bottom:80px;
+    background-color: #734ae8;
+    background-image: linear-gradient(315deg, #734ae8 0%, #89d4cf 74%);
+    color: rgb(255, 255, 255);
+    background-attachment: fixed;
+    width: 100%;
+    box-shadow: 0px 0px 9px -2px black;
+}
+
+.header-content {
+    background-color: rgb(66 73 110);
+    width: fit-content;
+    margin: 0px auto;
+    box-shadow: 0px 0px 9px -2px black;
+    padding: 12px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.header-title {
+    text-shadow: 1px 1px #00000088;
+}
+
+.top-container {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+
+.name {
+    padding-top: 3rem;
+}
+
+.photo {
+    border-radius: 50%;
+    box-shadow: 0px 0px 9px -2px black;
+}
+
+.headline {
+    padding-top: 20px;
+    font-size: 24px;
+    border-bottom: 2px solid aqua;
+    padding-bottom: 8px;
+}
+
+.contact-info {
+    font-size: 18px;
+}
+
+#contact-container {
+    padding-bottom: 35px;
+}
+
+.contact-icon {
+    width: 45px;
+    border-radius: 15px;
+    box-shadow: 0 6px 3px -2px rgba(0, 0, 0, 0.301);
+    transition: ease 0.3s;
+}
+
+.contact-icon:hover {
+    cursor: pointer;
+    transform: scale(1.08, 1.08);
+    box-shadow: 0 6px 3px -2px rgba(61, 100, 185, 0.301);
+}
+
+.contact-name {
+    font-size: 26px;
+}
+
+#call-anim {
+    width: 60px;
+    padding-top: 10vh;
+}
+
+.contact-title-container {
+    display: flex;
+    justify-content: center;
+}

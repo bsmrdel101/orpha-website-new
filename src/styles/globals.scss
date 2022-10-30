@@ -1,0 +1,75 @@
+@import "./settings/colors";
+@import "./components/nav";
+@import "./components/header";
+@import "./components/about";
+@import "./components/education";
+@import "./components/publications";
+@import "./components/skills";
+
+html,
+body,
+#react-root {
+  height: 100%;
+  --body-font-size: 20px;
+  --smaller-font-size: 17px;
+  --blue-btn: rgb(61, 100, 185);
+  --blue-btn-hover: rgb(72, 115, 207);
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0px;
+  background-color: rgb(37, 41, 62);
+  color: white;
+  font-size: 100%;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: square;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+@media (max-width: 500px) {
+  .skills-list {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}
+
+p {
+  line-height: 1.5;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* --------------------------------------------------------------------------------
+Container
+-------------------------------------------------------------------------------- */
+
+.container {
+  margin-top: 4.5rem
+}

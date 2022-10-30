@@ -1,0 +1,57 @@
+#education-container {
+    background-color: rgb(66 73 110);
+    box-shadow: 0px 0px 9px -2px black;
+}
+
+.services-title {
+    margin-top: 70px;
+    font-size: 60px;
+}
+
+.education-title {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 60px;
+}
+
+.education-list {
+    padding: 0px 15% 50px;
+}
+
+.education-item {
+    border-radius: 8px;
+    box-shadow: 0 6px 3px -2px rgba(0, 0, 0, 0.301);
+    background-color: #5e6690;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    transition: 0.3s ease;
+    min-height: 11.5rem;
+}
+
+.education-item:hover {
+    transform: scale(1.02, 1.02);
+    box-shadow: #7983b8 0px 5px 15px;
+}
+
+.edu-name {
+    font-size: 25px;
+}
+
+.edu-img {
+    padding-right: 10px;
+    border-radius: 8px;
+    max-width: 7rem;
+    max-height: 7rem;
+    margin-top: 2rem;
+}
+
+.edu-degree {
+    font-size: 18px;
+}
+
+.edu-date {
+    font-size: 17px;
+    font-style: italic;
+}

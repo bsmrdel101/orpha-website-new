@@ -8,9 +8,11 @@
     "export": "next export"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.4.0",
     "cypress": "^10.0.3",
     "next": "^12.1.5",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "sass": "^1.55.0"
   }
 }
