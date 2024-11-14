@@ -14,9 +14,9 @@ export default function Publications() {
                 <h1 className='publications-title'>Publications</h1>
             </center>
             <div className='publications-list'>
-                {publicationItems.map((item) => {
+                {publicationItems.map((item, i) => {
                     return (
-                        <div className='publication'>
+                        <div key={i} className='publication'>
                             <h4 className='publication-name'>{item.name}</h4>
                             <p className='publication-desc'>{item.desc}</p>
                         </div>
